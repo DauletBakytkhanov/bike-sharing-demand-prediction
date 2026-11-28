@@ -1,0 +1,4 @@
+Model,Pre-tuning CV RMSE,Post-tuning CV RMSE,Improvement,Improvement (%),Tuning time (s),Best parameters
+Random Forest,43.25658094620997,42.17093702228111,1.0856439239288633,2.5097774724240764,89.96815490722656,"{'n_estimators': 150, 'max_depth': 25, 'min_samples_split': 2, 'min_samples_leaf': 1, 'max_features': 0.7}"
+Gradient Boosting,62.65751839933311,39.71872513163974,22.93879326769337,36.60980175036348,140.1657543182373,"{'n_estimators': 500, 'learning_rate': 0.05, 'max_depth': 6, 'subsample': 0.7, 'min_samples_leaf': 1}"
+XGBoost,42.03587265014649,38.819277954101565,3.216594696044922,7.652023125143121,28.573452949523926,"{'n_estimators': 700, 'learning_rate': 0.05, 'max_depth': 7, 'subsample': 0.7, 'colsample_bytree': 1.0, 'reg_lambda': 1.0}"
